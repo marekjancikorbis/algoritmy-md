@@ -3,7 +3,7 @@ Algoritmizace – maturitní otázka
 
 1. Algoritmus a jeho vlastnosti
 
-Algoritmus je přesný návod, jak krok za krokem vyřešit nějakou úlohu. Má konečný počet kroků a vede od vstupních údajů k výsledku. Návod musí být tak jasný, aby ho zvládl provést člověk i počítač.
+Algoritmus je přesný návod, jak krok za krokem vyřešit nějakou úlohu. Má konečný počet kroků a vede od vstupních údajů k výsledku.
 
 Algoritmizace je hledání a sepsání takového návodu pro konkrétní problém.
 
