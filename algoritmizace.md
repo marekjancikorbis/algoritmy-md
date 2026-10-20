@@ -25,8 +25,6 @@ Opakovatelnost – pro stejné vstupy dá vždy stejný výsledek.
 
 Efektivita – dojde k výsledku v rozumném čase a nespotřebuje zbytečně moc paměti.
 
-K maturitě stačí hlavně prvních pět: konečnost, jednoznačnost, obecnost, výsledek a srozumitelné kroky.
-
 Příklad – největší společný dělitel (Eukleides):
 
 1. Načti dvě kladná celá čísla a, b.
@@ -50,7 +48,6 @@ Program nevzniká jen psaním kódu – to je jen jedna část. Celému postupu 
 5. Překlad – zdrojový kód se převede do podoby, které rozumí počítač:
    kompilátor přeloží celý program předem (C, C++, Pascal),
    interpret překládá a rovnou provádí program za běhu, řádek po řádku (Python, JavaScript),
-   kombinace: program se přeloží do mezikódu, který pak spouští virtuální stroj (Java, C#).
 6. Ladění – hledání a opravování chyb.
 7. Testování – ověření, že program funguje správně pro různé vstupy.
 8. Dokumentace – návod pro uživatele a popis kódu pro programátory (komentáře).
@@ -253,33 +250,3 @@ Rekurze: krátký a elegantní zápis, podobný matematické definici. Každé v
 Cyklus: zápis bývá delší, ale paměti potřebuje stále stejně a je rychlejší. Hrozí nekonečný cyklus. Hodí se na jednoduché opakování.
 
 Každá rekurze se dá přepsat na cyklus a naopak.
-
-
-7. Shrnutí a možné doplňující otázky
-
-Osnova odpovědi na 10–15 minut:
-1. Co je algoritmus, odkud pochází slovo, příklad (Eukleides).
-2. Vlastnosti – vyjmenovat a ke každé říct jednu větu.
-3. Fáze vzniku programu – od zadání po údržbu; rozdíl kompilátor vs. interpret.
-4. Způsoby zápisu – slovně, pseudokód, vývojový diagram (nakreslit značky), strukturogram, kód; tři stavební kameny.
-5. Syntaxe vs. sémantika a tři druhy chyb s příkladem.
-6. Ladění (debugger, bod přerušení, krokování) a testování (černá/bílá skříňka, druhy testů, testovací data).
-7. Rekurze – co to je, podmínka konce, faktoriál na tabuli, rekurze vs. cyklus.
-
-Otázky, které může zkoušející položit:
-Co se stane, když rekurzivní funkce nemá podmínku konce?
-Jaký je rozdíl mezi kompilátorem a interpretem? Uveďte jazyky.
-Proč překladač neodhalí logickou chybu?
-Jaký je rozdíl mezi testováním a laděním?
-Nakreslete vývojový diagram cyklu, který sečte čísla 1 až n.
-Přepište rekurzivní faktoriál na cyklus.
-Kterou vlastnost algoritmu porušuje nekonečný cyklus? (konečnost)
-Jaká testovací data zvolíte pro program, který zjistí, jestli je číslo prvočíslo?
-
-Faktoriál cyklem (pro porovnání s rekurzí):
-
-    def faktorial(n):
-        vysledek = 1
-        for i in range(2, n + 1):
-            vysledek *= i
-        return vysledek
